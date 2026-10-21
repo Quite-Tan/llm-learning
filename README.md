@@ -15,5 +15,5 @@
 | Week 8 | Agent 项目：多功能智能助手 | 未开始 | 
 | Week 9-10 | 模型微调：LoRA / QLoRA | 未开始 | 
 | Week 11-12 | 模型部署与工程化 | 未开始 |
- ## 项目结构 \`\`\`text llm-learning/ ├── README.md 
+## 项目结构 \`\`\`text llm-learning/ ├── README.md 
  ├── week01-environment/ ├── week02-python-api/ ├── week03-prompt-engineering/ ├── week04-rag-basic/ ├── week05-vector-db/ ├── week06-rag-project/ ├── week07-agent-basic/ ├── week08-agent-project/ ├── week09-finetune/ ├── week10-finetune-project/ ├── week11-deploy/ |── week12-deploy-project/
