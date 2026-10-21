@@ -274,7 +274,7 @@ git push
 
 ```
 
-2026-10-09：llama3.2:3b 调用成功。踩坑：Ollama 服务已在后台运行，强制指定地址（绕过 localhost 解析）
-有些机器 localhost 会解析成 IPv6 的 ::1，而 Ollama 只监听 127.0.0.1。改代码增加：
-import os
-os.environ["OLLAMA_HOST"] = "http://127.0.0.1:11434"
+2026-10-09：llama3.2:3b 调用成功。踩坑：Ollama 服务已在后台运行，强制指定地址（绕过 localhost 解析）  
+有些机器 localhost 会解析成 IPv6 的 ::1，而 Ollama 只监听 127.0.0.1。改代码增加：  
+import os  
+os.environ["OLLAMA_HOST"] = "<http://127.0.0.1:11434>"
